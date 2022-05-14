@@ -24,4 +24,9 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    fun openDiceActivity(view: View) {
+        val intent = Intent(this, DiceActivity::class.java)
+        startActivity(intent)
+    }
 }
