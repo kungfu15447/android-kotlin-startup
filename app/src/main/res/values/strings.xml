@@ -7,4 +7,6 @@
     <string name="textView_message">Message</string>
     <string name="background_img_desc">Birtthday background</string>
     <string name="dicePageButton">Go to dice</string>
+    <string name="rollDice">Roll</string>
+    <string name="initial_roll_text">Press button to roll!</string>
 </resources>

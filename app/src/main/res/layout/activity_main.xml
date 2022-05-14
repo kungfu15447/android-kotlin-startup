@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
+        android:onClick="openDiceActivity"
         android:text="@string/dicePageButton"
         android:textColor="#1DE9B6"
         app:layout_constraintStart_toStartOf="parent"
