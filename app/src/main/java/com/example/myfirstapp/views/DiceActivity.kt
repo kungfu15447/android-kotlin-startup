@@ -26,8 +26,11 @@ class DiceActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
+        //Roll dice and show user number
         val rolledNumber = dice.roll()
         rolledNumberTextView.text = "$rolledNumber"
+
+        //Show toast to tell user dice has been rolled
         val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
         toast.show()
     }
